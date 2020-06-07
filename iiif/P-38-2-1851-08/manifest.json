@@ -1,0 +1,91 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://db.j-images.ch/GLAMhack/iiif/P-38-2-1851-08/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Taubleu des couses postales de l'administration des postes de la Confederation Suisse",
+  "thumbnail": {
+    "@id": "http://db.j-images.ch/omeka-s/iiif-img/50/full/200,200/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "http://db.j-images.ch/omeka-s/iiif-img/50",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "license": "https://creativecommons.org/choose/zero/",
+  "logo": "https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg",
+  "related": {
+    "@id": "http://db.j-images.ch/omeka-s/s/j-images-image-database/item/48",
+    "format": "text/html"
+  },
+  "seeAlso": {
+    "@id": "http://db.j-images.ch/omeka-s/api/items/48",
+    "format": "application/ld+json"
+  },
+  "metadata": [{
+    "label": "Identifier",
+    "value": "P-38-2-1851-08"
+  }, {
+    "label": "Title",
+    "value": "Taubleu des couses postales de l&#039;administration des postes de la Confederation Suisse"
+  }, {
+    "label": "Creator",
+    "value": "PTT"
+  }, {
+    "label": "Date",
+    "value": "1851"
+  }, {
+    "label": "Language",
+    "value": "FR"
+  }],
+  "sequences": [{
+    "@id": "http://db.j-images.ch/GLAMhack/iiif/P-38-2-1851-08/sequence/normal",
+    "@type": "sc:Sequence",
+    "label": "Current Page Order",
+    "viewingDirection": "left-to-right",
+    "viewingHint": "non-paged",
+    "canvases": [{
+      "@id": "http://db.j-images.ch/GLAMhack/iiif/P-38-2-1851-08/canvas/p1",
+      "@type": "sc:Canvas",
+      "label": "P-38-2-1851-08",
+      "thumbnail": {
+        "@id": "http://db.j-images.ch/omeka-s/iiif-img/50/full/200,200/0/default.jpg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "http://db.j-images.ch/omeka-s/iiif-img/50",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "width": 6772,
+      "height": 5212,
+      "images": [{
+        "@id": "http://db.j-images.ch/GLAMhack/iiif/P-38-2-1851-08/annotation/p0001-image",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+          "@id": "http://db.j-images.ch/omeka-s/iiif-img/50/full/800,616/0/default.jpg",
+          "@type": "dctypes:Image",
+          "format": "image/jpeg",
+          "width": 6772,
+          "height": 5212,
+          "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "http://db.j-images.ch/omeka-s/iiif-img/50",
+            "profile": "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on": "http://db.j-images.ch/GLAMhack/iiif/P-38-2-1851-08/canvas/p1"
+      }],
+      "otherContent": [
+                  {
+                      "@id": "http://db.j-images.ch/GLAMhack/iiif/P-38-2-1851-08/list/annotation1.json",
+                      "@type": "sc:AnnotationList",
+                      "label": "Text of this page"
+                  }
+              ],
+      "metadata": [{
+        "label": "Title",
+        "value": "P-38-2-1851-08"
+      }]
+    }]
+  }]
+}

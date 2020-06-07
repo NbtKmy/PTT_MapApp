@@ -1,0 +1,62 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://db.j-images.ch/GLAMhack/iiif/P-38-2-1851-08/list/annotation1.json",
+	"@type": "sc:AnnotationList",
+	"resources": [
+		{
+			"@id": "http://P-38-2-1851-08_annotation/Anno_item/1/anno.json",
+			"@type": "oa:Annotation",
+			"motivation": "sc:painting",
+			"resource": [
+				{
+					"@type": "cnt:ContentAsText",
+					"format": "text/plain",
+					"chars": "<p>Zurich</p>"
+				}
+			],
+			"on": "http://db.j-images.ch/GLAMhack/iiif/P-38-2-1851-08/canvas/p1#xywh=3876,1120,136,135"
+
+		},
+		{
+			"@id": "http://P-38-2-1851-08_annotation/Anno_item/2/anno.json",
+			"@type": "oa:Annotation",
+			"motivation": "sc:painting",
+			"resource": [
+				{
+					"@type": "cnt:ContentAsText",
+					"format": "text/plain",
+					"chars": "<p>Brienz</p>"
+				}
+			],
+			"on": "http://db.j-images.ch/GLAMhack/iiif/P-38-2-1851-08/canvas/p1#xywh=3194,2446,76,56"
+		},
+		{
+			"@id": "http://P-38-2-1851-08_annotation/Anno_item/3/anno.json",
+			"@type": "oa:Annotation",
+			"motivation": "sc:painting",
+			"resource": [
+				{
+					"@type": "cnt:ContentAsText",
+					"format": "text/plain",
+					"chars": "<p>Yverdon</p>"
+				}
+			],
+			"on": "http://db.j-images.ch/GLAMhack/iiif/P-38-2-1851-08/canvas/p1#xywh=1144,2404,100,88"
+
+		},
+		{
+			"@id": "http://P-38-2-1851-08_annotation/Anno_item/4/anno.json",
+			"@type": "oa:Annotation",
+			"motivation": "sc:painting",
+			"resource": [
+				{
+					"@type": "cnt:ContentAsText",
+					"format": "text/plain",
+					"chars": "<p>St. Gallen</p>"
+				}
+			],
+			"on": "http://db.j-images.ch/GLAMhack/iiif/P-38-2-1851-08/canvas/p1#xywh=5086,1012,132,131"
+
+		}
+	]
+}

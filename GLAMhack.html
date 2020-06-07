@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+
+<link rel="stylesheet" href="kensaku_style.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="mirador/css/mirador-combined.min.css">
+<script src="https://unpkg.com/sql.js@0.3.2/js/sql.js"></script>
+<script src="lib/MBTiles.js"></script>
+<script src="opacity/dist/L.Control.Opacity.js"></script>
+<link href="opactiy/dist/L.Control.Opacity.css" rel="stylesheet" />
+<style type="text/css">
+   #viewer {
+     display: block;
+     width: 100vw;
+     height: 50vh;
+     position: relative;
+   }
+</style>
+
+
+</head>
+
+<body>
+<div id="mapid" style="width: 100vw; height: 50vh;"></div>
+<!--- <div id="uniview" class="uv" data-locale="en-GB:English (GB),cy-GB:Cymraeg" data-uri="http://db.j-images.ch/GLAMhack/iiif/P-38-2-1851-08/manifest.json" data-collectionindex="0" data-manifestindex="0" data-sequenceindex="0" data-canvasindex="0" data-zoom="-2024,-163,6228,3244" data-rotation="0" style="width:100vw; height:50vh; background-color: #000"></div><script type="text/javascript" id="embedUV" src="uv/lib/embed.js"></script><script type="text/javascript">/* wordpress fix */</script> --->
+ <div id="viewer" allowfullscreen="allowfullscreen"></div>
+
+<script src="placeName.js"></script>
+<script src="getMap.js"></script>
+<script src="mirador/mirador.min.js"></script>
+<script src="mirador_insert.js"></script>
+
+
+</body>
+</html>
