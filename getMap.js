@@ -1,4 +1,4 @@
-//var mymap = L.map('mapid').setView([47.00016, 8.01427], 8);
+
 
 var Stamen_WC = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg', {
   maxZoom: 16,
@@ -11,7 +11,11 @@ var OpenStreetMap_CH = L.tileLayer('https://tile.osm.ch/switzerland/{z}/{x}/{y}.
 	bounds: [[45, 5], [48, 11]]
 });
 
-var PTTmap1851 = L.tileLayer.mbTiles('tiles/kurskarte.mbtiles');
+var PTTmap1851 = L.tileLayer('http://db.j-images.ch/tileserver/tileserver-php/kurskarte/{z}/{x}/{y}.png', {
+  maxZoom: 16,
+  attribution: 'PTT'
+});
+
 
 var mymap = L.map('mapid', {
 		center: [47.00016, 8.01427],
@@ -27,7 +31,7 @@ var mymap = L.map('mapid', {
 
   var overLayers = {
       "Karte 1851": PTTmap1851
-  };
+    };
 
 L.control.layers(baseLayers, overLayers, {
   collasped: false
